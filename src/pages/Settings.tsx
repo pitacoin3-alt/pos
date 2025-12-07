@@ -701,7 +701,7 @@ export default function Settings() {
                     <Button 
                       variant="outline" 
                       className="w-full"
-                      onClick={() => window.open('/setup', '_blank')}
+                      onClick={() => window.open(`${window.location.origin}${window.location.pathname}#/setup`, '_blank')}
                     >
                       <Link2 className="mr-2 h-4 w-4" />
                       Setup New Database Connection
